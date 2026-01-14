@@ -8,8 +8,9 @@ import toast, { Toaster } from 'react-hot-toast'
 import { useRouter } from 'next/navigation'
 import axios from 'axios'
 import { VscGraph } from 'react-icons/vsc'
-import useAuthToken from '../../../(client)/_components/hooks/useAuthToken'
-import Topbar from '../../../(client)/_components/dashboard/Topbar'
+import useAuthToken from '@/app/(client)/_components/hooks/useAuthToken'
+import Topbar from '@/app/(client)/_components/dashboard/Topbar'
+
 
 
 export default function Page () {
@@ -50,7 +51,7 @@ export default function Page () {
       )
 
       toast.success('Market update post created successfully!')
-      router.push('/manage-market-update')
+      router.push('/dashboard/manage-market-update')
 
       setShowToast(true)
       setShowConfirmModal(false)

@@ -6,8 +6,9 @@ import { MdOutlineManageHistory } from 'react-icons/md'
 import toast from 'react-hot-toast'
 import Link from 'next/link'
 import { FiEdit, FiTrash2 } from 'react-icons/fi'
-import useAuthToken from '../../../(client)/_components/hooks/useAuthToken'
-import Topbar from '../../../(client)/_components/dashboard/Topbar'
+import useAuthToken from '@/app/(client)/_components/hooks/useAuthToken'
+import Topbar from '@/app/(client)/_components/dashboard/Topbar'
+
 
 export default function page() {
     const [blogs, setBlogs] = useState([])

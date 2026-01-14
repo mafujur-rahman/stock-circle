@@ -8,8 +8,10 @@ import toast, { Toaster } from 'react-hot-toast'
 import { GrBlog } from 'react-icons/gr'
 import { useRouter } from 'next/navigation'
 import axios from 'axios'
-import Topbar from '../../../(client)/_components/dashboard/Topbar'
-import useAuthToken from '../../../(client)/_components/hooks/useAuthToken'
+
+
+import Topbar from '@/app/(client)/_components/dashboard/Topbar'
+import useAuthToken from '@/app/(client)/_components/hooks/useAuthToken'
 
 const JoditEditor = dynamic(() => import('jodit-react'), { ssr: false })
 
@@ -53,7 +55,7 @@ export default function Page() {
       )
 
       toast.success('Blog post created successfully!')
-      router.push('/manage-blog')
+      router.push('/dashboard/manage-blog')
 
       setShowToast(true)
       setShowConfirmModal(false)
@@ -184,7 +186,7 @@ export default function Page() {
               tabIndex={1}
               onBlur={newContent => setContent(newContent)}
               config={{
-                height: 350,         
+                height: 300,         
               }}
             />
           </div>

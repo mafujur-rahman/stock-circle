@@ -11,6 +11,7 @@ import axios from 'axios'
 import useAuthToken from '@/app/(client)/_components/hooks/useAuthToken'
 import Topbar from '@/app/(client)/_components/dashboard/Topbar'
 
+
 const JoditEditor = dynamic(() => import('jodit-react'), { ssr: false })
 
 export default function Page () {
@@ -204,7 +205,7 @@ export default function Page () {
               tabIndex={1}
               onBlur={newContent => setContent(newContent)}
               config={{
-                height: 350,         
+                height: 300,         
               }}
             />
           </div>
