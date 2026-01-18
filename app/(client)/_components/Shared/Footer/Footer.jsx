@@ -143,11 +143,11 @@ const Footer = () => {
                 <div className="space-y-2 md:space-y-2.5 lg:space-y-3">
                   <div className="footer__last__col__icon__parent">
                     <FaPhone className="text-gray-600 text-lg" />
-                    <span className="footer__para">+9594596051</span>
+                    <span className="footer__para">+91 9594596051</span>
                   </div>
                   <div className="footer__last__col__icon__parent">
                     <FaWhatsapp className="text-gray-600 text-lg" />
-                    <span className="footer__para">+9594596051</span>
+                    <span className="footer__para">+91 9594596051</span>
                   </div>
                   <div className="footer__last__col__icon__parent">
                     <FaEnvelope className="text-gray-600 text-lg" />
@@ -188,7 +188,7 @@ const Footer = () => {
                 {/* Phone Number Display */}
                 <div className="footer__icons__parent">
                   <FaPhone className="text-gray-600 text-lg" />
-                  <span className="sub__para">+9594596051</span>
+                  <span className="sub__para">+91 9594596051</span>
                 </div>
 
                 <div className="footer__icons__parent">
@@ -201,7 +201,7 @@ const Footer = () => {
                 {/* WhatsApp Button */}
                 <div>
                   <a
-                    href={`https://wa.me/9594596051`}
+                    href={`https://wa.me/919594596051`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-x-3  text-black"

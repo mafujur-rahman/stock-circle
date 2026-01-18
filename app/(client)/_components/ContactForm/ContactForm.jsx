@@ -74,10 +74,10 @@ export default function ContactForm() {
               <span className='font-semibold'>Or feel free to call us at:</span>
               <br />
               <a
-                href='tel:+9594596051'
+                href='tel:+91 9594596051'
                 className='text-[#4483B8] hover:underline'
               >
-                +9594596051
+                +91 9594596051
               </a>
             </p>
             <p className='text-gray-800'>
